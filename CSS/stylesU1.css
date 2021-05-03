@@ -1,0 +1,42 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+img.htmlImage{
+    padding: 0px 0px 0px 100px;
+    width: 150px;
+}
+img.cssImage{
+    padding: 0px 0px 0px 100px;
+    width: 150px;
+}
+p{
+    padding: 0px 100px 0px 100px;  
+}
+footer {
+    background: #333333;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }
