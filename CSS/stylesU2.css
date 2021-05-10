@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+}
+
+.square {
+  color: yellow;
+  font-size: 30px;
+  
+}
+
+.square li:nth-child(2){
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
