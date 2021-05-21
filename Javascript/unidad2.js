@@ -4,7 +4,7 @@ function checkGrades(value1){
 
 var myName = prompt("Ingrese su nombre");
 console.log(myName);
-while(myName == "" || myName == " "){
+while(myName == "" || myName == " " || myName == null){
     myName = prompt("Ingrese un nombre valido");
 }
 
